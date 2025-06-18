@@ -6,8 +6,8 @@ logs/
 bank_reviews_dbt/macros/*
 bank_reviews_dbt/logs/*
 airflow_home/*
-!airflow_home/dags/enrich_data.py
-!airflow_home/dags/load_to_staging.py
+!airflow_home/dags/
+pipeline/extract_reviews.py
 git.txt
 # pipeline/enrich_data.py
 # pipeline/extract_reviews.py
