@@ -7,6 +7,7 @@ bank_reviews_dbt/macros/*
 bank_reviews_dbt/logs/*
 airflow_home/*
 !airflow_home/dags/
+airflow_home/dags/extract_reviews.py
 git.txt
 # pipeline/enrich_data.py
 # pipeline/extract_reviews.py
