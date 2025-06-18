@@ -2,11 +2,12 @@
 .venv/
 docs/
 logs/
-bank_reviews_dbt/models/*
+# bank_reviews_dbt/models/*
 bank_reviews_dbt/macros/*
+bank_reviews_dbt/logs/*
 airflow_home/*
-!airflow_home/logs/*
+!airflow_home/dags/
 git.txt
-pipeline/enrich_data.py
-pipeline/extract_reviews.py
-pipeline/load_to_staging.py
+# pipeline/enrich_data.py
+# pipeline/extract_reviews.py
+# pipeline/load_to_staging.py

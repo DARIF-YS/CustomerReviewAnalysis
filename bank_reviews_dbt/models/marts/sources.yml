@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: ma_bdd       
+    # database: reviews_db      
+    database: defaultdb      
+    schema: public      
+    tables:
+      - name: reviews_enriched

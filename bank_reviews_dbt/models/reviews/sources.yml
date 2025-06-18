@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: defaultdb
+    schema: public
+    tables:
+      - name: bank_reviews
